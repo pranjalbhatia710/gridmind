@@ -609,7 +609,7 @@ export default function EnergySimulation() {
               : `${stats.paybackYears.toFixed(1)} years`}
           </p>
           <p style={{ margin: "8px 0 0 0", fontSize: 11, color: "#6b6f80" }}>
-            on $12M capital investment
+            Based on $12M total capital investment across all 3 phases
           </p>
         </div>
 
@@ -689,7 +689,7 @@ export default function EnergySimulation() {
               : "0 tons CO\u2082"}
           </p>
           <p style={{ margin: "8px 0 0 0", fontSize: 11, color: "#6b6f80" }}>
-            EPA average emission factor
+            EPA avg emission factor: 0.4 kg CO&#8322;/kWh
           </p>
         </div>
       </div>

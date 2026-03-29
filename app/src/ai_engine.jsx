@@ -547,6 +547,19 @@ export default function AIOptimizationEngine() {
         <div style={styles.flowchartTitle}>
           AI Decision Flowchart
         </div>
+        <div
+          style={{
+            fontSize: "11px",
+            color: "#6b6f80",
+            fontStyle: "italic",
+            textAlign: "center",
+            marginBottom: "14px",
+            lineHeight: "1.6",
+          }}
+        >
+          Ventilation savings based on DOE Smart Labs Accelerator benchmarks.
+          UC Irvine achieved 61% across 13 buildings.
+        </div>
         <FlowChart />
       </div>
     </div>

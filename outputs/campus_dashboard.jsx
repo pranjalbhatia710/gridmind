@@ -71,7 +71,7 @@ const alertsData = [
     id: 1,
     text: "Chemistry Lab \u2014 Full ventilation running, occupancy: 0 people \u2014 wasting $34/hr",
     severity: "red",
-    resolved: "Chemistry Lab \u2014 Ventilation scaled to unoccupied mode \u2014 saving $34/hr",
+    resolved: "Chemistry Lab \u2014 Ventilation scaled to unoccupied mode \u2014 612\u2192280 kWh/hr \u00d7 $0.133 = $44/hr saved",
   },
   {
     id: 2,

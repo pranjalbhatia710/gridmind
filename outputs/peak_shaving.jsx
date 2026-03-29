@@ -173,7 +173,7 @@ export default function PeakShavingVisualization() {
     {
       metric: "Annual Savings",
       without: "\u2014",
-      withIce: "$700K+",
+      withIce: "$700K+/yr",
       highlight: true,
     },
   ];
@@ -746,6 +746,21 @@ export default function PeakShavingVisualization() {
               ))}
             </tbody>
           </table>
+          {/* Justification row */}
+          <div
+            style={{
+              padding: "14px 24px",
+              borderTop: "1px solid #2a2d38",
+              fontSize: 12,
+              fontStyle: "italic",
+              color: "#6b6f80",
+              lineHeight: 1.7,
+            }}
+          >
+            Peak hours: ~2,080 hrs/yr (8hrs &times; 260 weekdays). Off-peak: ~6,680 hrs/yr.
+            Rate differential: $0.064/kWh ($0.17 &minus; $0.106).
+            Shifting 11M kWh &times; $0.064 = $704K annual savings.
+          </div>
         </div>
 
         {/* Explanation Callout */}
