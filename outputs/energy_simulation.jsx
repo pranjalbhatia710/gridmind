@@ -187,8 +187,7 @@ export default function EnergySimulation() {
         background: "#0f1117",
         minHeight: "100vh",
         color: "#c8c8d0",
-        fontFamily:
-          "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        fontFamily: "'DM Sans', sans-serif",
         padding: "32px 40px",
         boxSizing: "border-box",
       }}
@@ -202,11 +201,12 @@ export default function EnergySimulation() {
             margin: 0,
             fontSize: 32,
             fontWeight: 700,
+            fontFamily: "'Space Grotesk', sans-serif",
             background: "linear-gradient(135deg, #daa520 0%, #f0d878 50%, #daa520 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",
-            letterSpacing: "-0.5px",
+            letterSpacing: "-0.02em",
           }}
         >
           GridMind Energy Simulation — MSU Campus
@@ -247,6 +247,7 @@ export default function EnergySimulation() {
             style={{
               margin: 0,
               fontSize: 16,
+              fontFamily: "'DM Sans', sans-serif",
               fontWeight: 600,
               color: "#c8c8d0",
             }}
@@ -363,7 +364,8 @@ export default function EnergySimulation() {
             <span
               style={{
                 fontSize: 20,
-                fontWeight: 700,
+                fontFamily: "'JetBrains Mono', monospace",
+                fontWeight: 600,
                 color: "#9b59b6",
                 minWidth: 52,
                 textAlign: "right",
@@ -429,7 +431,8 @@ export default function EnergySimulation() {
             <span
               style={{
                 fontSize: 20,
-                fontWeight: 700,
+                fontFamily: "'JetBrains Mono', monospace",
+                fontWeight: 600,
                 color: "#3498db",
                 minWidth: 52,
                 textAlign: "right",
@@ -495,7 +498,8 @@ export default function EnergySimulation() {
             <span
               style={{
                 fontSize: 20,
-                fontWeight: 700,
+                fontFamily: "'JetBrains Mono', monospace",
+                fontWeight: 600,
                 color: "#1abc9c",
                 minWidth: 52,
                 textAlign: "right",
@@ -554,14 +558,15 @@ export default function EnergySimulation() {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", textTransform: "uppercase", letterSpacing: "1px" }}>
+          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", fontFamily: "'DM Sans', sans-serif", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.04em" }}>
             Annual Savings
           </p>
           <p
             style={{
               margin: 0,
               fontSize: 32,
-              fontWeight: 700,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontWeight: 600,
               color: "#27ae60",
               lineHeight: 1.1,
             }}
@@ -592,14 +597,15 @@ export default function EnergySimulation() {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", textTransform: "uppercase", letterSpacing: "1px" }}>
+          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", fontFamily: "'DM Sans', sans-serif", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.04em" }}>
             Payback Period
           </p>
           <p
             style={{
               margin: 0,
               fontSize: 32,
-              fontWeight: 700,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontWeight: 600,
               color: "#daa520",
               lineHeight: 1.1,
             }}
@@ -632,14 +638,15 @@ export default function EnergySimulation() {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", textTransform: "uppercase", letterSpacing: "1px" }}>
+          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", fontFamily: "'DM Sans', sans-serif", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.04em" }}>
             Energy Reduction
           </p>
           <p
             style={{
               margin: 0,
               fontSize: 32,
-              fontWeight: 700,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontWeight: 600,
               color: "#1abc9c",
               lineHeight: 1.1,
             }}
@@ -672,14 +679,15 @@ export default function EnergySimulation() {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", textTransform: "uppercase", letterSpacing: "1px" }}>
+          <p style={{ margin: "0 0 8px 0", fontSize: 12, color: "#6b6f80", fontFamily: "'DM Sans', sans-serif", fontWeight: 500, textTransform: "uppercase", letterSpacing: "0.04em" }}>
             Emissions Avoided
           </p>
           <p
             style={{
               margin: 0,
               fontSize: 32,
-              fontWeight: 700,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontWeight: 600,
               color: "#3498db",
               lineHeight: 1.1,
             }}

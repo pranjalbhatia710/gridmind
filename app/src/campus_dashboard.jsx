@@ -237,10 +237,11 @@ function StatCard({ label, value, prefix, suffix, color, subLabel, subValue }) {
         style={{
           fontSize: 12,
           color: COLORS.muted,
+          fontFamily: "'DM Sans', sans-serif",
+          fontWeight: 500,
           textTransform: "uppercase",
-          letterSpacing: 1.5,
+          letterSpacing: "0.04em",
           marginBottom: 8,
-          fontWeight: 600,
         }}
       >
         {label}
@@ -248,7 +249,8 @@ function StatCard({ label, value, prefix, suffix, color, subLabel, subValue }) {
       <div
         style={{
           fontSize: 28,
-          fontWeight: 700,
+          fontFamily: "'JetBrains Mono', monospace",
+          fontWeight: 600,
           color: color || COLORS.white,
           transition: "color 0.5s ease",
           lineHeight: 1.2,
@@ -350,7 +352,8 @@ function BuildingCard({ building, optimized }) {
           <span
             style={{
               fontSize: 22,
-              fontWeight: 700,
+              fontFamily: "'JetBrains Mono', monospace",
+              fontWeight: 600,
               color: statusColor,
               transition: "color 0.5s ease",
             }}
@@ -429,6 +432,7 @@ function EnergyChart({ optimized }) {
           <div
             style={{
               fontSize: 16,
+              fontFamily: "'DM Sans', sans-serif",
               fontWeight: 600,
               color: COLORS.white,
               marginBottom: 4,
@@ -644,8 +648,7 @@ export default function CampusDashboard() {
         background: COLORS.bg,
         minHeight: "100vh",
         padding: 28,
-        fontFamily:
-          "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+        fontFamily: "'DM Sans', sans-serif",
         color: COLORS.text,
       }}
     >
@@ -665,8 +668,9 @@ export default function CampusDashboard() {
             style={{
               fontSize: 22,
               fontWeight: 700,
+              fontFamily: "'Space Grotesk', sans-serif",
               color: COLORS.white,
-              letterSpacing: -0.5,
+              letterSpacing: "-0.02em",
             }}
           >
             MSU Campus Energy Monitor
@@ -766,6 +770,7 @@ export default function CampusDashboard() {
               <div
                 style={{
                   fontSize: 16,
+                  fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 600,
                   color: COLORS.white,
                   marginBottom: 4,
@@ -853,6 +858,7 @@ export default function CampusDashboard() {
             <div
               style={{
                 fontSize: 16,
+                fontFamily: "'DM Sans', sans-serif",
                 fontWeight: 600,
                 color: COLORS.white,
                 marginBottom: 4,

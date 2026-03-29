@@ -167,7 +167,7 @@ export default function IoTArchitecture() {
         background: COLORS.bg,
         minHeight: "100vh",
         padding: "32px 24px",
-        fontFamily: "'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        fontFamily: "'DM Sans', sans-serif",
         color: COLORS.text,
         boxSizing: "border-box",
       }}
@@ -178,9 +178,10 @@ export default function IoTArchitecture() {
           style={{
             color: COLORS.gold,
             fontSize: 28,
+            fontFamily: "'Space Grotesk', sans-serif",
             fontWeight: 700,
             margin: "0 0 4px",
-            letterSpacing: 1.5,
+            letterSpacing: "-0.02em",
           }}
         >
           GridMind IoT System Architecture
@@ -238,7 +239,7 @@ export default function IoTArchitecture() {
                     <line x1="2" y1="12" x2="6" y2="12" stroke={COLORS.blue} strokeWidth="1.5" />
                     <line x1="18" y1="12" x2="22" y2="12" stroke={COLORS.blue} strokeWidth="1.5" />
                   </svg>
-                  <span style={{ color: COLORS.bright, fontSize: 18, fontWeight: 700, letterSpacing: 0.5 }}>
+                  <span style={{ color: COLORS.bright, fontSize: 18, fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, letterSpacing: "-0.02em" }}>
                     GridMind Engine
                   </span>
                 </div>
@@ -353,7 +354,7 @@ export default function IoTArchitecture() {
                   position: "relative",
                 }}
               >
-                <span style={{ color: COLORS.bright, fontSize: 13, fontWeight: 700, letterSpacing: 1 }}>
+                <span style={{ color: COLORS.bright, fontSize: 13, fontFamily: "'DM Sans', sans-serif", fontWeight: 700, letterSpacing: "0.04em" }}>
                   Campus Network Backbone
                 </span>
                 <div style={{ display: "flex", justifyContent: "space-between", marginTop: 6 }}>
@@ -515,10 +516,11 @@ export default function IoTArchitecture() {
                     style={{
                       textAlign: "left",
                       color: COLORS.gold,
-                      fontWeight: 700,
+                      fontFamily: "'DM Sans', sans-serif",
+                      fontWeight: 600,
                       fontSize: 11,
                       textTransform: "uppercase",
-                      letterSpacing: 0.8,
+                      letterSpacing: "0.06em",
                       paddingBottom: 8,
                       borderBottom: `1px solid ${COLORS.border}`,
                     }}
@@ -529,10 +531,11 @@ export default function IoTArchitecture() {
                     style={{
                       textAlign: "right",
                       color: COLORS.gold,
-                      fontWeight: 700,
+                      fontFamily: "'DM Sans', sans-serif",
+                      fontWeight: 600,
                       fontSize: 11,
                       textTransform: "uppercase",
-                      letterSpacing: 0.8,
+                      letterSpacing: "0.06em",
                       paddingBottom: 8,
                       borderBottom: `1px solid ${COLORS.border}`,
                     }}
@@ -560,6 +563,7 @@ export default function IoTArchitecture() {
                         color: COLORS.bright,
                         textAlign: "right",
                         borderBottom: `1px solid ${COLORS.border}44`,
+                        fontFamily: "'JetBrains Mono', monospace",
                         fontWeight: 600,
                         fontVariantNumeric: "tabular-nums",
                       }}
@@ -574,6 +578,7 @@ export default function IoTArchitecture() {
                     style={{
                       padding: "10px 0 4px",
                       color: COLORS.gold,
+                      fontFamily: "'DM Sans', sans-serif",
                       fontWeight: 800,
                       fontSize: 13,
                       borderTop: `2px solid ${COLORS.green}66`,
@@ -585,7 +590,8 @@ export default function IoTArchitecture() {
                     style={{
                       padding: "10px 0 4px",
                       color: COLORS.gold,
-                      fontWeight: 800,
+                      fontFamily: "'JetBrains Mono', monospace",
+                      fontWeight: 600,
                       fontSize: 13,
                       textAlign: "right",
                       borderTop: `2px solid ${COLORS.green}66`,
@@ -609,13 +615,13 @@ export default function IoTArchitecture() {
                 textAlign: "center",
               }}
             >
-              <span style={{ color: COLORS.green, fontSize: 13, fontWeight: 700 }}>
+              <span style={{ color: COLORS.green, fontSize: 13, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600 }}>
                 Under 3.4%
               </span>
-              <span style={{ color: COLORS.muted, fontSize: 12 }}>
+              <span style={{ color: COLORS.muted, fontSize: 12, fontFamily: "'DM Sans', sans-serif" }}>
                 {" "}of the{" "}
               </span>
-              <span style={{ color: COLORS.bright, fontSize: 13, fontWeight: 700 }}>
+              <span style={{ color: COLORS.bright, fontSize: 13, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600 }}>
                 $12M budget
               </span>
             </div>

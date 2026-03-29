@@ -184,8 +184,7 @@ export default function PeakShavingVisualization() {
         background: "#0f1117",
         minHeight: "100vh",
         padding: "40px 24px",
-        fontFamily:
-          '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+        fontFamily: "'DM Sans', sans-serif",
         color: "#c8c8d0",
       }}
     >
@@ -225,9 +224,10 @@ export default function PeakShavingVisualization() {
             style={{
               fontSize: 32,
               fontWeight: 700,
+              fontFamily: "'Space Grotesk', sans-serif",
               color: "#ffffff",
               margin: "0 0 8px 0",
-              letterSpacing: -0.5,
+              letterSpacing: "-0.02em",
             }}
           >
             Thermal Ice Storage &mdash; Peak Demand Shaving
@@ -327,8 +327,9 @@ export default function PeakShavingVisualization() {
               <div
                 style={{
                   fontSize: 11,
+                  fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 700,
-                  letterSpacing: 1.5,
+                  letterSpacing: "0.06em",
                   textTransform: "uppercase",
                   color: showIce ? "#e67e22" : "#3498db",
                   marginBottom: 6,
@@ -622,6 +623,7 @@ export default function PeakShavingVisualization() {
             <h2
               style={{
                 fontSize: 18,
+                fontFamily: "'DM Sans', sans-serif",
                 fontWeight: 600,
                 color: "#ffffff",
                 margin: 0,
@@ -643,10 +645,11 @@ export default function PeakShavingVisualization() {
                     textAlign: "left",
                     padding: "12px 24px",
                     fontSize: 12,
+                    fontFamily: "'DM Sans', sans-serif",
                     fontWeight: 600,
                     color: "#6b6f80",
                     textTransform: "uppercase",
-                    letterSpacing: 1,
+                    letterSpacing: "0.06em",
                     borderBottom: "1px solid #2a2d38",
                   }}
                 >
@@ -657,10 +660,11 @@ export default function PeakShavingVisualization() {
                     textAlign: "right",
                     padding: "12px 24px",
                     fontSize: 12,
+                    fontFamily: "'DM Sans', sans-serif",
                     fontWeight: 600,
                     color: "#6b6f80",
                     textTransform: "uppercase",
-                    letterSpacing: 1,
+                    letterSpacing: "0.06em",
                     borderBottom: "1px solid #2a2d38",
                   }}
                 >
@@ -671,10 +675,11 @@ export default function PeakShavingVisualization() {
                     textAlign: "right",
                     padding: "12px 24px",
                     fontSize: 12,
+                    fontFamily: "'DM Sans', sans-serif",
                     fontWeight: 600,
                     color: "#27ae60",
                     textTransform: "uppercase",
-                    letterSpacing: 1,
+                    letterSpacing: "0.06em",
                     borderBottom: "1px solid #2a2d38",
                     background: "rgba(39,174,96,0.05)",
                   }}
@@ -716,6 +721,7 @@ export default function PeakShavingVisualization() {
                       padding: "14px 24px",
                       textAlign: "right",
                       fontSize: 14,
+                      fontFamily: "'JetBrains Mono', monospace",
                       fontWeight: row.highlight ? 700 : 400,
                       color: row.highlight ? "#ffffff" : "#c8c8d0",
                       borderBottom:
@@ -731,6 +737,7 @@ export default function PeakShavingVisualization() {
                       padding: "14px 24px",
                       textAlign: "right",
                       fontSize: 14,
+                      fontFamily: "'JetBrains Mono', monospace",
                       fontWeight: row.highlight ? 700 : 400,
                       color: row.highlight ? "#27ae60" : "#1abc9c",
                       borderBottom:
@@ -813,6 +820,7 @@ export default function PeakShavingVisualization() {
               <h3
                 style={{
                   fontSize: 15,
+                  fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 600,
                   color: "#3498db",
                   margin: "0 0 8px 0",
@@ -881,6 +889,7 @@ export default function PeakShavingVisualization() {
             <h3
               style={{
                 fontSize: 16,
+                fontFamily: "'DM Sans', sans-serif",
                 fontWeight: 700,
                 color: "#daa520",
                 margin: 0,
@@ -906,10 +915,11 @@ export default function PeakShavingVisualization() {
                 <div
                   style={{
                     fontSize: 11,
-                    fontWeight: 600,
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontWeight: 500,
                     color: "#6b6f80",
                     textTransform: "uppercase",
-                    letterSpacing: 1,
+                    letterSpacing: "0.04em",
                     marginBottom: 4,
                   }}
                 >
@@ -918,7 +928,8 @@ export default function PeakShavingVisualization() {
                 <div
                   style={{
                     fontSize: 26,
-                    fontWeight: 700,
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontWeight: 600,
                     color: item.color,
                     letterSpacing: -0.5,
                   }}

@@ -147,18 +147,20 @@ export default function FinancialModel() {
   const sectionTitle = {
     fontSize: 20,
     fontWeight: 700,
+    fontFamily: "'Space Grotesk', sans-serif",
     color: COLORS.text,
     marginBottom: 16,
-    letterSpacing: "-0.01em",
+    letterSpacing: "-0.02em",
   };
 
   const tableHeaderCell = {
     padding: "10px 16px",
     textAlign: "left",
     fontSize: 11,
+    fontFamily: "'DM Sans', sans-serif",
     fontWeight: 600,
     textTransform: "uppercase",
-    letterSpacing: "0.08em",
+    letterSpacing: "0.06em",
     color: COLORS.muted,
     borderBottom: `1px solid ${COLORS.border}`,
   };
@@ -166,6 +168,7 @@ export default function FinancialModel() {
   const tableCell = {
     padding: "10px 16px",
     fontSize: 14,
+    fontFamily: "'DM Sans', sans-serif",
     color: COLORS.text,
     borderBottom: `1px solid ${COLORS.border}`,
   };
@@ -176,8 +179,7 @@ export default function FinancialModel() {
         background: COLORS.bg,
         minHeight: "100vh",
         padding: "40px 24px",
-        fontFamily:
-          '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+        fontFamily: "'DM Sans', sans-serif",
         color: COLORS.text,
       }}
     >
@@ -216,6 +218,7 @@ export default function FinancialModel() {
           style={{
             fontSize: 32,
             fontWeight: 800,
+            fontFamily: "'Space Grotesk', sans-serif",
             color: "#ffffff",
             margin: "0 0 6px",
             letterSpacing: "-0.02em",
@@ -286,6 +289,7 @@ export default function FinancialModel() {
                     <span
                       style={{
                         fontSize: 13,
+                        fontFamily: "'JetBrains Mono', monospace",
                         color: COLORS.muted,
                         fontWeight: 500,
                       }}
@@ -342,13 +346,14 @@ export default function FinancialModel() {
                               }}
                             >
                               <td style={tableCell}>{item.name}</td>
-                              <td style={{ ...tableCell, textAlign: "right", fontVariantNumeric: "tabular-nums" }}>
+                              <td style={{ ...tableCell, textAlign: "right", fontFamily: "'JetBrains Mono', monospace", fontVariantNumeric: "tabular-nums" }}>
                                 {formatDollars(item.cost)}
                               </td>
                               <td
                                 style={{
                                   ...tableCell,
                                   textAlign: "right",
+                                  fontFamily: "'JetBrains Mono', monospace",
                                   color: item.savings ? COLORS.green : COLORS.muted,
                                   fontWeight: item.savings ? 600 : 400,
                                   fontVariantNumeric: "tabular-nums",
@@ -405,6 +410,7 @@ export default function FinancialModel() {
                             style={{
                               ...tableCell,
                               textAlign: "right",
+                              fontFamily: "'JetBrains Mono', monospace",
                               fontWeight: 700,
                               color: "#ffffff",
                               borderBottom: "none",
@@ -417,6 +423,7 @@ export default function FinancialModel() {
                             style={{
                               ...tableCell,
                               textAlign: "right",
+                              fontFamily: "'JetBrains Mono', monospace",
                               fontWeight: 700,
                               color: COLORS.green,
                               borderBottom: "none",
@@ -447,23 +454,23 @@ export default function FinancialModel() {
               alignItems: "center",
             }}
           >
-            <span style={{ fontSize: 16, fontWeight: 700, color: COLORS.gold }}>
+            <span style={{ fontSize: 16, fontFamily: "'DM Sans', sans-serif", fontWeight: 700, color: COLORS.gold }}>
               GRAND TOTAL
             </span>
             <div style={{ display: "flex", gap: 40 }}>
               <div style={{ textAlign: "right" }}>
-                <div style={{ fontSize: 11, color: COLORS.muted, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 2 }}>
+                <div style={{ fontSize: 11, fontFamily: "'DM Sans', sans-serif", fontWeight: 500, color: COLORS.muted, textTransform: "uppercase", letterSpacing: "0.04em", marginBottom: 2 }}>
                   Budget
                 </div>
-                <div style={{ fontSize: 20, fontWeight: 800, color: "#ffffff", fontVariantNumeric: "tabular-nums" }}>
+                <div style={{ fontSize: 20, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600, color: "#ffffff", fontVariantNumeric: "tabular-nums" }}>
                   $12M
                 </div>
               </div>
               <div style={{ textAlign: "right" }}>
-                <div style={{ fontSize: 11, color: COLORS.muted, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 2 }}>
+                <div style={{ fontSize: 11, fontFamily: "'DM Sans', sans-serif", fontWeight: 500, color: COLORS.muted, textTransform: "uppercase", letterSpacing: "0.04em", marginBottom: 2 }}>
                   Steady-State Savings
                 </div>
-                <div style={{ fontSize: 20, fontWeight: 800, color: COLORS.green, fontVariantNumeric: "tabular-nums" }}>
+                <div style={{ fontSize: 20, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600, color: COLORS.green, fontVariantNumeric: "tabular-nums" }}>
                   $7.35M/yr
                 </div>
               </div>
@@ -550,6 +557,7 @@ export default function FinancialModel() {
                         style={{
                           ...tableCell,
                           textAlign: "right",
+                          fontFamily: "'JetBrains Mono', monospace",
                           fontVariantNumeric: "tabular-nums",
                           padding: "12px 20px",
                         }}
@@ -560,6 +568,7 @@ export default function FinancialModel() {
                         style={{
                           ...tableCell,
                           textAlign: "right",
+                          fontFamily: "'JetBrains Mono', monospace",
                           color: COLORS.green,
                           fontWeight: 600,
                           fontVariantNumeric: "tabular-nums",
@@ -572,6 +581,7 @@ export default function FinancialModel() {
                         style={{
                           ...tableCell,
                           textAlign: "right",
+                          fontFamily: "'JetBrains Mono', monospace",
                           fontVariantNumeric: "tabular-nums",
                           padding: "12px 20px",
                         }}
@@ -582,6 +592,7 @@ export default function FinancialModel() {
                         style={{
                           ...tableCell,
                           textAlign: "right",
+                          fontFamily: "'JetBrains Mono', monospace",
                           fontWeight: 700,
                           color: row.netPosition >= 0 ? COLORS.green : COLORS.red,
                           fontVariantNumeric: "tabular-nums",
@@ -636,9 +647,10 @@ export default function FinancialModel() {
                 <div
                   style={{
                     fontSize: 12,
-                    fontWeight: 600,
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontWeight: 500,
                     textTransform: "uppercase",
-                    letterSpacing: "0.08em",
+                    letterSpacing: "0.04em",
                     color: COLORS.muted,
                     marginBottom: 10,
                   }}
@@ -648,7 +660,8 @@ export default function FinancialModel() {
                 <div
                   style={{
                     fontSize: m.label === "5-Year Net Savings" ? 36 : 30,
-                    fontWeight: 800,
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontWeight: 600,
                     color: m.color,
                     letterSpacing: "-0.02em",
                     lineHeight: 1.1,

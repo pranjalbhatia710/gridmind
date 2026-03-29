@@ -186,7 +186,7 @@ export default function AIOptimizationEngine() {
       background: "#0f1117",
       minHeight: "100vh",
       color: "#c8c8d0",
-      fontFamily: "'SF Mono', 'Fira Code', 'Cascadia Code', monospace",
+      fontFamily: "'DM Sans', sans-serif",
       padding: "24px",
       boxSizing: "border-box",
     },
@@ -197,11 +197,12 @@ export default function AIOptimizationEngine() {
     title: {
       fontSize: "28px",
       fontWeight: 700,
+      fontFamily: "'Space Grotesk', sans-serif",
       background: "linear-gradient(135deg, #daa520, #f5d77a)",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
       margin: 0,
-      letterSpacing: "1px",
+      letterSpacing: "-0.02em",
     },
     subtitle: {
       fontSize: "14px",
@@ -215,16 +216,19 @@ export default function AIOptimizationEngine() {
     clockTime: {
       fontSize: "48px",
       fontWeight: 700,
+      fontFamily: "'JetBrains Mono', monospace",
       color: "#daa520",
       textShadow: "0 0 20px rgba(218,165,32,0.4)",
       transition: "all 0.3s ease",
     },
     clockLabel: {
       fontSize: "12px",
+      fontFamily: "'DM Sans', sans-serif",
       color: "#6b6f80",
       marginTop: "4px",
-      letterSpacing: "2px",
+      letterSpacing: "0.04em",
       textTransform: "uppercase",
+      fontWeight: 500,
     },
     grid: {
       display: "flex",
@@ -263,10 +267,12 @@ export default function AIOptimizationEngine() {
     },
     cardType: {
       fontSize: "11px",
+      fontFamily: "'DM Sans', sans-serif",
       color: "#6b6f80",
       marginBottom: "12px",
       textTransform: "uppercase",
-      letterSpacing: "1px",
+      letterSpacing: "0.04em",
+      fontWeight: 500,
     },
     divider: {
       height: "1px",
@@ -282,12 +288,15 @@ export default function AIOptimizationEngine() {
     },
     label: {
       color: "#6b6f80",
+      fontFamily: "'DM Sans', sans-serif",
+      fontWeight: 500,
       fontSize: "11px",
       textTransform: "uppercase",
-      letterSpacing: "0.5px",
+      letterSpacing: "0.04em",
     },
     value: {
       color: "#c8c8d0",
+      fontFamily: "'JetBrains Mono', monospace",
       fontWeight: 600,
       fontSize: "13px",
       transition: "all 0.5s ease",
@@ -335,7 +344,8 @@ export default function AIOptimizationEngine() {
       padding: "2px 8px",
       borderRadius: "4px",
       fontSize: "12px",
-      fontWeight: 700,
+      fontFamily: "'JetBrains Mono', monospace",
+      fontWeight: 600,
       color: hasSavings ? "#27ae60" : "#6b6f80",
       background: hasSavings ? "#27ae6018" : "transparent",
     }),
@@ -357,12 +367,14 @@ export default function AIOptimizationEngine() {
     },
     cumulativeValue: {
       fontSize: "36px",
-      fontWeight: 700,
+      fontWeight: 600,
+      fontFamily: "'JetBrains Mono', monospace",
       color: "#27ae60",
       textShadow: "0 0 20px rgba(39,174,96,0.3)",
     },
     projectedValue: {
       fontSize: "18px",
+      fontFamily: "'JetBrains Mono', monospace",
       color: "#1abc9c",
       marginTop: "4px",
     },
@@ -379,10 +391,11 @@ export default function AIOptimizationEngine() {
     flowchartTitle: {
       fontSize: "14px",
       fontWeight: 700,
+      fontFamily: "'DM Sans', sans-serif",
       color: "#daa520",
       marginBottom: "16px",
       textTransform: "uppercase",
-      letterSpacing: "1px",
+      letterSpacing: "0.06em",
       textAlign: "center",
     },
   };
@@ -579,7 +592,7 @@ function FlowChart() {
     borderRadius: "8px",
     fontSize: "11px",
     fontWeight: 700,
-    fontFamily: "'SF Mono', 'Fira Code', monospace",
+    fontFamily: "'JetBrains Mono', monospace",
     whiteSpace: "nowrap",
     textAlign: "center",
   };
@@ -626,7 +639,7 @@ function FlowChart() {
     fontSize: "12px",
     fontWeight: 700,
     padding: "0 6px",
-    fontFamily: "monospace",
+    fontFamily: "'JetBrains Mono', monospace",
   };
 
   const yesArrow = { ...arrow, color: "#27ae60" };
@@ -661,7 +674,7 @@ function FlowChart() {
     fontSize: "11px",
     color: "#a0a4b8",
     padding: "3px 0",
-    fontFamily: "'SF Mono', 'Fira Code', monospace",
+    fontFamily: "'JetBrains Mono', monospace",
   };
 
   return (
